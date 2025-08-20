@@ -4,7 +4,7 @@ import { useState } from "react";
 import Web3 from "web3";
 import ABI from "./Contract/abi.json"
 
-const ContractAddress = "0xd7F7a17E1fA4F27B180414edB7d3a246030Cce31";
+const ContractAddress = "";
 
 export default function Home() {
   const [web3, setWeb3] = useState(null);
